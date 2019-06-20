@@ -1,40 +1,82 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Project: Recipe book</title>
+        <title>Recipe book</title>
         <meta charset="utf-8">
+        
         <style>
-            body {background-color: lightgrey;}
-            #grilled-cheese {background-color: rgb(255, 255, 100);}
-            #GC-link {color:rgb(255,255,100);}
-            #CDB-link {color:rgb(255,150,50);}
-            #creamed-dried-beef {background-color:rgb(255,150,50);}
-            #PBJ-link {color:rgb(220,0,0);}
-            #PBJ {background-color:rgb(220,0,0);}
-            .link-background {background-color: rgb(50, 50, 50);}
-			.time-servings {font-size: 1em;}
-			.ingredients-qty {font-size: 1em;}
+            #GC-link {
+				color:rgb(255,255,100);
+			}
+            #CDB-link {
+				color:rgb(255,150,50);
+			}
+            #PBJ-link {
+				color:rgb(220,50,50);
+			}
+            #grilled-cheese {
+				background-color: rgb(255, 255, 100);
+                padding: 6px;
+                margin: 6px;
+                border: solid black 1px;
+			}
+            #creamed-dried-beef {
+				background-color:rgb(255,150,50);
+                padding: 6px;
+                margin: 6px;
+                border: solid black 1px;
+			}
+            #PBJ {
+				background-color:rgb(255,50,50);
+                padding: 6px;
+                margin: 6px;
+                border: solid black 1px;
+			}
+            #contents-links {
+                padding: 3px;
+				background-color: rgb(60,60,60);
+                opacity: .8;
+            }
+			.time-servings {
+				font-size: 1em;
+			}
+			.ingredients-qty {
+				font-size: 1em;
+			}
+			#contents {
+                text-shadow: 1px 0px purple;
+				float:right;
+				width: 30%;
+				margin-left: 5px;
+				background-image:url("https://upload.wikimedia.org/wikipedia/commons/2/2f/Culinary_fruits_front_view.jpg");
+                background-size: cover;
+                background-color: white;
+                padding: 5px;
+                border: 5px double rgb(150,0,150);
+			}
             
         </style>
     </head>
     <body>
-       
-        <h1>My Recipe Book</h1>
+        <h1>Recipe Book</h1>
         
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" alt="food feast display" width="400">
         
-        <h2>Contents:</h2>
+        <div id="contents">
+            
+            <h2>Contents:</h2>
+            
+            <div id="contents-links">
+            <a href="#grilled-cheese" id="GC-link" class="link-background"><strong>Grilled Cheese</strong></a><br>
+            
+            <a href="#creamed-dried-beef" id="CDB-link" class="link-background"><strong>Creamed, Dried Beef</strong></a><br>
+            
+            <a href="#PBJ" id="PBJ-link" class="link-background"><strong>Peanut Butter and Jelly</strong></a>
+            </div>
+        </div>
         
-        <fieldset>
-        <ol>
-            <li><a href="#grilled-cheese" id="GC-link" class="link-background"><strong>Grilled Cheese</strong></a></li>
-            <li><a href="#creamed-dried-beef" id="CDB-link" class="link-background"><strong>Creamed, Dried Beef</strong></a></li>
-            <li><a href="#PBJ" id="PBJ-link" class="link-background"><strong>Peanut Butter and Jelly</strong></a></li>
-        </ol>
-        </fieldset>
-       
         <div id="grilled-cheese">
-        <h2>Grilled Cheese</h2>
+            <h2>Grilled Cheese</h2>
         
         <ul class="time-servings">
             <li>Time: appx. 7 min.</li>
@@ -79,7 +121,7 @@
         <p><strong>Directions:</strong> Spread butter onto <em>outside</em> of bread.  Place first piece of bread, butter side down, into cold, non-stick skillet.<br>Spread mustard onto dry, upward-facing bread.  Layer cheese and tomatoe, sprinkle salt and pepper onto tomato slices, and top with second slice of bread butter face out.<br>Cook over medium heat until golden brown on both sides.  If bread browns before cheese melts, turn down the burner.
 </p>
         
-    </div><br>
+    </div>
     <div id="creamed-dried-beef">
         <h2>Creamed, Dried Beef</h2>
         
@@ -126,7 +168,7 @@
         <p><strong>Directions:</strong> Melt butter in medium skillet over low heat.<br>Fill dried beef jar with water and shake violently to remove as much salt as possible. This will prevent your gravy from being overly salty.  Rinse and repeat several times.  Dry with paper towel.<br>Over medium heat, slowly add flour using a whisk to prevent clumping.
 </p>
         
-    </div><br>
+        </div>
     <div id="PBJ">
         <h2>Peanut Butter and Jelly</h2>
         
@@ -159,8 +201,6 @@
         </table>
         
         <p><strong>Directions:</strong> Spread  peanut butter and jelly onto both pieces of bread and stack with dry side of bread on the outside of the sandwich.</p>
-        
-    <p><em>Source: <a href="https://www.google.com" target="_blank">Simple PB&J.</a></em></p>
         
     </div>
     </body>
