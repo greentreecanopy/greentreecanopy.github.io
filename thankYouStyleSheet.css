@@ -1,0 +1,89 @@
+
+            /* Indentation class */
+.indent {
+        margin-left: 30px;
+        line-height: 1.5em;
+    }
+.sideNote{
+        margin-left: 60px;
+    }
+.text-pic-left{
+        float: left;
+        width: 30%;
+        margin: 10px;
+        margin-top: 20px;
+    }
+.text-pic-right{
+        float: right;
+        width: 30%;
+        margin: 10px;
+        margin-top: 20px;
+    }
+.border-top{
+        border-top: 1px solid rgb(220,220,220);
+    }
+body {
+        background: radial-gradient(rgb(0,0,0), rgb(20,60,20), rgb(0,0,0));
+        color: rgb(220,220,220);
+        font-family: "Comic Sans MS", cursive;
+        height: 2000px;
+    }
+.style1 {
+        margin: 1%;
+        padding: 1%;
+        background: linear-gradient(rgb(0,0,0), rgb(20,60,20), rgb(0,0,0));
+        border: 1px solid white;
+        border-top: 10px solid rgb(20,60,20);
+        border-bottom: 10px solid rgb(20,60,20);
+        position: relative;
+        float: left;
+        width: 70%;
+        z-index: 1;
+    }
+.gallery-style img{
+        width: 100%;
+        height: auto;
+    }
+.gallery-style {
+        margin: 1%;
+        border: 1px solid rgb(220,220,220);
+        float: left;
+        width: 30.773%;
+    }
+.gallery-desc{
+        text-align: center;
+    }
+.text-link {
+    color: rgb(40,165,40);
+    }
+.text-link:hover {
+    background-color: rgb(20,60,20);
+    border: 1px solid rgb(220,220,220);
+    }
+.head-title {
+        text-align: center;
+        text-shadow: 3px 2px rgb(20,120,20);
+    }
+#compSetup {
+        position: relative;
+        float: left;
+        width: 70%;
+        z-index: 1;
+    }
+#directory {
+        width: 20%;
+        position: fixed;
+        margin-left: 75%;
+        clear: left;
+        z-index: 2;
+        text-align: center;
+        padding: 1%;
+        background: linear-gradient(rgb(0,0,0), rgb(20,60,20), rgb(0,0,0));
+        border: 1px solid white;
+        border-top: 10px solid rgb(20,60,20);
+        border-bottom: 10px solid rgb(20,60,20);
+    }
+#directory-title {
+        text-decoration: underline;
+        text-shadow: 3px 2px rgb(0,0,0);
+    }
