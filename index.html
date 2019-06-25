@@ -1,207 +1,91 @@
 <!DOCTYPE html>
+
 <html>
+
     <head>
-        <title>Recipe book</title>
+    
         <meta charset="utf-8">
         
-        <style>
-            #GC-link {
-				color:rgb(255,255,100);
-			}
-            #CDB-link {
-				color:rgb(255,150,50);
-			}
-            #PBJ-link {
-				color:rgb(220,50,50);
-			}
-            #grilled-cheese {
-				background-color: rgb(255, 255, 100);
-                padding: 6px;
-                margin: 6px;
-                border: solid black 1px;
-			}
-            #creamed-dried-beef {
-				background-color:rgb(255,150,50);
-                padding: 6px;
-                margin: 6px;
-                border: solid black 1px;
-			}
-            #PBJ {
-				background-color:rgb(255,50,50);
-                padding: 6px;
-                margin: 6px;
-                border: solid black 1px;
-			}
-            #contents-links {
-                padding: 3px;
-				background-color: rgb(60,60,60);
-                opacity: .8;
-            }
-			.time-servings {
-				font-size: 1em;
-			}
-			.ingredients-qty {
-				font-size: 1em;
-			}
-			#contents {
-                text-shadow: 1px 0px purple;
-				float:right;
-				width: 30%;
-				margin-left: 5px;
-				background-image:url("https://upload.wikimedia.org/wikipedia/commons/2/2f/Culinary_fruits_front_view.jpg");
-                background-size: cover;
-                background-color: white;
-                padding: 5px;
-                border: 5px double rgb(150,0,150);
-			}
-            
-        </style>
+        <title>Thank You</title>
+        
+        <link href="thankYouStyleSheet.css" rel="stylesheet" type="text/css">
+        
     </head>
+    
     <body>
-        <h1>Recipe Book</h1>
+
+        <h1 class="head-title">Thank You!</h1>
         
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" alt="food feast display" width="400">
+        <!-- Beginning of Directory -->
+        <div id="directory" class="style1">
+            
+            <h2 id="directory-title">Contents</h2>
+            
+            <a href="gallery.html" class="text-link">Gallery</a><br>
+            
+            <a href="#compSetup" class="text-link">Computer Setup</a><br>
+            
+            <a href="#avast-pic" class="text-link">Links</a>
+            
+        </div>
+        <!-- End of Directory -->
         
-        <div id="contents">
+        <p class="style1">
+            Dear Scot,
+            <br><span class="indent"></span>I wanted to thank you for your generous gift of the laptop which you brought to me a while ago.  Even though I already had a laptop which still manages to function, I am finding a productive means of using this new computer.
+            <br><span class="indent"></span>I generally treat my old laptop as more of a gaming powerhouse / desktop than an actual laptop because its power connection is beginning to fail.  I have decided that this smaller, far more handy unit would give a great opportunity to further my knowledge of various types of computer programming.  I am only allowing myself to add necessary applications that either extend my ability to write programs / webpages, or just maintain the safety and performance of the machine itself.  This forces me to keep better focus when trying to learn something, rather than just being able to get sidetracked so easily.  I am also able to be very mobile, an option which has become very limmited with my previous machine.
+            <br><span class="indent"></span>Since I have been learning to write web pages I figured that simply writing up a webpage with some of the things that I have been learning would be a fun way to both practice my newly found knowledge and show off a bit at the same time; hey I told you I am a bit of a showoff.
+        </p>
+        
+        <div class="style1" id="compSetup">
+            <h3>Computer Setup</h3>
+            <h4><span class="indent"></span>Why so many un-necessary programs?</h4>
+            <p> <span class="indent"></span>When I first setup this computer I was pretty new to the Windows 10 interface, so I will say that I am no expert here, but I do know Windows 10 still has bugs which are in need of fixing.  What I did bring to the table was a basic understanding of how computer manufacturers are able to provide decent machines, while still keeping their customer's costs down. Sadly this practice can lessen the computer's ability to perform the tasks that we ask of it.<br>
+            <span class="indent"></span>The producers of many computers in this day and age will sell a computer with all sorts of un-necessary content pre-loaded onto it because they are effectively paid to include this software.  This content is 'sponsored' by the software company.  A good example of this is the McAfee antivirus software which came with a one year free trial standard with this computer. Little do many users of this software realize, that this free trial is actually quite similar protection of that which can be obtained through various antivirus programs which are actually free forever. When this year trial is up, this program is somewhat difficult to remove and can act as a sort of spyware in itself. This is certainly effective 'advertising'. </p>
+                
+                <div class="sideNote">As a matter of fact, when I initially removed the installation of the Mcaffee program from this computer and attempted to install a different antivirus program, this 'spyware' type of functionallity that I had mentioned kicked in. Upon making my way to one of Mcaffee's competitors web sites, I was automatically re-routed back to Mcaffee's own website!  This caught me off gaurd as it was the first time I had experienced this first hand. Talk about manipulation!</div>
             
-            <h2>Contents:</h2>
+            <h4><span class="indent"></span>My Initial Setup <em>Choices</em></h4>
+            <span class="indent"></span>
+            My steps in preparing this computer, and any for that matter, are relatively simple.
+            <ul>
+                <li>Remove un-necessary junk that will take up resources better utilized elsewhere</li>
+                <li>Implement a labyrinth of programs for protecting and maintaining the system through a  plethora of ways it might be used</li>
+                <li>Complete these tasks using only software that is both legal and <em>actually</em> free. No <em>'free'</em> trials here<br><br>
+                    
+                    <div class="sideNote">Note: The following programs all have free and paid versions.  For purposes described here, we will only be making use of the free versions of this software.
+                    </div>
+                </li>
+            </ul>
             
-            <div id="contents-links">
-            <a href="#grilled-cheese" id="GC-link" class="link-background"><strong>Grilled Cheese</strong></a><br>
+            <p><span class="indent"></span>Evacuate the free loaders! - In removing the un-necessary programs, precious resources will be freed up for more preferable tasks. I simply looked through the installed program list <em>(Right click on start menu -> settings -> apps & features)</em> and removed anything that I knew I wouldn't be using, or was not essential for the computer to run.</p>
             
-            <a href="#creamed-dried-beef" id="CDB-link" class="link-background"><strong>Creamed, Dried Beef</strong></a><br>
+            <div class="sideNote" id="uninstallEx">As it has been a while since I have done this, I do not have a lot of specific examples, but for one, I knew I was not interested in <em>One Drive</em>, so I uninstalled it. Remember, these can be re-installed if later you decide you want to make use of a given program.
+            </div>        
+            <p><span class="indent"></span>
+                When it comes to software that will maintain a computer's performance and security, there are too many options available to count.  The software shown here is just my preference as to what has worked for in my situation for many years. So without any further blabbering, here is what I like to use. 
+            </p>
             
-            <a href="#PBJ" id="PBJ-link" class="link-background"><strong>Peanut Butter and Jelly</strong></a>
+            <div class="border-top">
+                <a href="https://www.avast.com/en-us/index#pc" target="_blank"><img src="avast.jpg" class="text-pic-left" id="avast-pic"></a>
+                
+                <p><span class="indent"></span>
+                    First off, we will defantly be needing some form of virus protection.  My favorite used to be <em>AVG</em>; however, in the past couple of years has changed to a program called <em>Avast</em>.  Oddly enough, I recently discovered via Wikipedia, that Avast bought out AVG in 2016 for some $1.3 Billion! Avast contains some very useful features that other programs simply do not offer.  One such feature includes the ability to scan for viruses and malware before your operating system has a chance to boot.  This can grant the antivirus program the ability to look in areas that would otherwise be unaccessible as the operating system would be using these files to run. This is a prime location for various threats to remain undetected.
+                </p>
+                To visit the Avast website click <a href="https://www.avast.com/en-us/index#pc" target="_blank" class="text-link">HERE.</a><br><br>
             </div>
+            
+            <div class="border-top">
+                <a href="https://www.ccleaner.com/" target="_blank"><img src="ccleaner.jpg"  class="text-pic-right"></a>
+            
+                <p>
+                    <span class="indent"></span>Next it is recommended that a computer has some sort of program which will locate and delete files that simply build up from every-day use and do not serve much purpose aside from their initial purpose.  My favorite program for such occasions is called <em>CCleaner</em>.  The full name for this program is actually 'Crap Cleaner', but is not openly advertised as such, likely for the case of remaining professional. Including more background than necessary as I do, it has recently come to my attention that the makers of CCleaner, <em>Piriform</em>, has also been bought out by the Avast company back in 2017.  This information presented by wikipedia.  CCleaner offers many useful tools other than simply cleaning up temporary system and internet files, you can also modify what programs will start with Windows, clean out your system's registry files, locate duplicate files for additional hard drive clean up, wipe drive space, and more. 
+                </p>
+                To visit the CCleaner website click <a href="https://www.ccleaner.com/" target="_blank" class="text-link">HERE.</a><br><br>
+            </div>
+            
         </div>
         
-        <div id="grilled-cheese">
-            <h2>Grilled Cheese</h2>
-        
-        <ul class="time-servings">
-            <li>Time: appx. 7 min.</li>
-            <li>Serves: 1</li>
-        </ul>
-        
-        <table class="ingredients-qty">
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Sharp cheddar cheese</td>
-                    <td>4 thin slices</td>
-                </tr>
-                <tr>
-                    <td>Tomato, ripe</td>
-                    <td>3-4 thin slices</td>
-                </tr>
-                <tr>
-                    <td>Bread of choice</td>
-                    <td>2 slices</td>
-                </tr>
-                <tr>
-                    <td>Mustard</td>
-                    <td>1 tsp.</td>
-                </tr>
-                <tr>
-                    <td>Salt & Pepper</td>
-                    <td>1 pinch</td>
-                </tr>
-                <tr>
-                    <td>Salted butter</td>
-                    <td>1 tsp.</td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <p><strong>Directions:</strong> Spread butter onto <em>outside</em> of bread.  Place first piece of bread, butter side down, into cold, non-stick skillet.<br>Spread mustard onto dry, upward-facing bread.  Layer cheese and tomatoe, sprinkle salt and pepper onto tomato slices, and top with second slice of bread butter face out.<br>Cook over medium heat until golden brown on both sides.  If bread browns before cheese melts, turn down the burner.
-</p>
-        
-    </div>
-    <div id="creamed-dried-beef">
-        <h2>Creamed, Dried Beef</h2>
-        
-        <ul class="time-servings">
-            <li>Time: appx. 20 min.</li>
-            <li>Serves: 3 to 4</li>
-        </ul>
-        
-        <table class="ingredients-qty">
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Dried beef</td>
-                    <td>1 12 oz. jar</td>
-                </tr>
-                <tr>
-                    <td>Bread of choice</td>
-                    <td>3-4  slices</td>
-                </tr>
-                <tr>
-                    <td>Flour</td>
-                    <td>appx 3/4 C</td>
-                </tr>
-                <tr>
-                    <td>Milk</td>
-                    <td>appx. 1/2 C</td>
-                </tr>
-                <tr>
-                    <td>Ground Pepper</td>
-                    <td>appx. 1 tbsp.</td>
-                </tr>
-                <tr>
-                    <td>Salted butter</td>
-                    <td>1 cube (1/2 C)</td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <p><strong>Directions:</strong> Melt butter in medium skillet over low heat.<br>Fill dried beef jar with water and shake violently to remove as much salt as possible. This will prevent your gravy from being overly salty.  Rinse and repeat several times.  Dry with paper towel.<br>Over medium heat, slowly add flour using a whisk to prevent clumping.
-</p>
-        
-        </div>
-    <div id="PBJ">
-        <h2>Peanut Butter and Jelly</h2>
-        
-        <ul class="time-servings">
-            <li>Time: appx. 2 min.</li>
-            <li>Serves: 1</li>
-        </ul>
-        
-        <table class="ingredients-qty">
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Jelly</td>
-                    <td>2-3 tsp.</td>
-                </tr>
-                <tr>
-                    <td>Peanut Butter</td>
-                    <td>2-3 tsp.</td>
-                </tr>
-                <tr>
-                    <td>Bread of choice</td>
-                    <td>2 slices</td>
-                </tr>
-                </tbody>
-        </table>
-        
-        <p><strong>Directions:</strong> Spread  peanut butter and jelly onto both pieces of bread and stack with dry side of bread on the outside of the sandwich.</p>
-        
-    </div>
     </body>
+    
 </html>
